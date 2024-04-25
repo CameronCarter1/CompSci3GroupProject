@@ -1,0 +1,88 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body { 
+  background: url("DALL·E 2024-04-17 01.34.38 - A stylish background image for a photography website, featuring a vintage camera on a wooden table. The camera is surrounded by scattered rolls of fil.webp");
+  background-size: cover;
+  background-position: center;
+}
+
+nav {
+  height: 80px;
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0rem calc((100vw - 1300px) / 2);
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  padding: 0 1.5rem;
+  font-style: italic;
+}
+
+nav a:hover {
+  color: black;
+  border: 15px white;
+  border-color: white;
+  background-color: white;
+  border-radius: 16px;
+}
+
+.brandname {
+  color: white;
+  font-size: 1.5rem;
+  font-weight: bold;
+  font-style: italic;
+  padding: 0 2rem;
+}
+
+.hero-container {
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+  height: 95vh;
+  padding:3rem calc((100vw - 1300px) / 2);
+}
+
+.column-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  color: white;
+  padding: 0rem 2rem;
+}
+
+.column-left h1 {
+  margin-bottom: 1rem;
+  font-size: 3rem;
+}
+
+.column-left p {
+  margin-bottom: 2rem;
+  font-size: 1.5rem;
+  line-height: 1.5;
+}
+
+button {
+  padding: 1rem 3rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 16px;
+  cursor: pointer;
+  background-color: black;
+  color: white;
+}
+
+button:hover {
+  background-color: white;
+  color: black;
+}
+
+

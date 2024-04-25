@@ -1,0 +1,23 @@
+body {
+  background-image: url("DALL·E 2024-04-17 10.54.07 - Create a seamless background with a soft gradient composed entirely of warm brown colors, emulating the gentle diffusion of the uploaded image. The ba.webp");
+  background-position: 100%;
+}
+
+.list-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-column-gap: 16px;
+  grid-row-gap: 30px;
+  margin-top: 15px;
+}
+
+.Pic-list img {
+  width: 100%;
+  border-radius: 5%;
+}
+
+.Pic-list .flex-div{
+  align-items: flex-start;
+  margin-top: 7px;
+}
+
